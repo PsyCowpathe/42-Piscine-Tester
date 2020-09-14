@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 10:51:26 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/14 13:12:01 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/14 13:58:23 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,4 +71,5 @@ int		main(void)
 	ft_putchar('\n');
 	ft_putnbr(ft_is_prime(70)); //0
 	ft_putchar('\n');
+	return (0);
 }
