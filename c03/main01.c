@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 14:59:56 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/14 15:01:25 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/14 22:32:54 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -136,5 +136,30 @@ int		main(void)
 	ft_putnbr(ft_strncmp(s7, s8, size8));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s17, s18, size8));
+
+	char	s19[] = "Helio";             //Merci Arpascal pour ces 3 test !
+	char	s20[] = "Hello";
+
+	ft_putstr("\n\nToi = ");
+	ft_putnbr(ft_strncmp(s19, s20, 5));
+	ft_putstr("\nOfficiel = ");
+	ft_putnbr(strncmp(s19, s20, 5));
+
+
+	ft_putstr("\n\nToi = ");
+	ft_putnbr(ft_strncmp(s20, s19, 5));
+	ft_putstr("\nOfficiel = ");
+	ft_putnbr(strncmp(s20, s19, 5));
+
+
+	ft_putstr("\n\nToi = ");
+	ft_putnbr(ft_strncmp(s19, s20, 3));
+	ft_putstr("\nOfficiel = ");
+	ft_putnbr(strncmp(s19, s20, 3));
+
+	ft_putstr("\n\nToi = ");
+	ft_putnbr(ft_strncmp(s20, s19, 3));
+	ft_putstr("\nOfficiel = ");
+	ft_putnbr(strncmp(s20, s19, 3));
 	return (0);
 }
