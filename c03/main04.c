@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 18:05:56 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/14 18:07:45 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/14 19:23:19 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,5 +90,33 @@ int		main(void)
 	ft_putstr(ft_strstr(str3, to_find3));
 	ft_putstr("\nOfficiel = ");
 	ft_putstr(strstr(str3, to_find3));
+
+	char *str4 = "lololololololololo";
+	char *to_find4 = "ololo";
+
+	ft_putstr("\n\nToi = ");
+	ft_putstr(ft_strstr(str4, to_find4));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr(strstr(str4, to_find4));
+
+	char *str5 = "blazatcar";
+	char *to_find5 = "blacar";
+
+	ft_putstr("\n\nToi = ");
+	if (ft_strstr(str5, to_find5) == 0)
+		ft_putnbr(0);
+	ft_putstr("\nOfficiel = ");
+	if (strstr(str5, to_find5) == 0)
+		ft_putnbr(0);
+
+	char *str6 = "blablacar";
+	char *to_find6 = "blacar";
+
+	ft_putstr("\n\nToi = ");
+	if (ft_strstr(str6, to_find6) == 0)
+		ft_putnbr(0);
+	ft_putstr("\nOfficiel = ");
+	if (strstr(str6, to_find6) == 0)
+		ft_putnbr(0);
 	return (0);
 }
