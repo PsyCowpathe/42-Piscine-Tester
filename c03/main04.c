@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 18:05:56 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/14 19:23:19 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/15 13:03:58 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,10 +113,8 @@ int		main(void)
 	char *to_find6 = "blacar";
 
 	ft_putstr("\n\nToi = ");
-	if (ft_strstr(str6, to_find6) == 0)
-		ft_putnbr(0);
+	ft_putstr(ft_strstr(str6, to_find6);
 	ft_putstr("\nOfficiel = ");
-	if (strstr(str6, to_find6) == 0)
-		ft_putnbr(0);
+	ft_putstr(strstr(str6, to_find6);
 	return (0);
 }
