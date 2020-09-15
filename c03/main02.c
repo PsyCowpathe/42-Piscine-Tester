@@ -38,7 +38,7 @@ int		main(void)
 	char	src1[11] = "coucou1234";
 
 	ft_putstr("\n\n#1");
-	ft_putstr("nToi = ");
+	ft_putstr("\nToi = ");
 	ft_putstr(ft_strcat(dest2, src1));
 	ft_putstr("\nOfficiel = ");
 	ft_putstr(strcat(dest3, src1));
