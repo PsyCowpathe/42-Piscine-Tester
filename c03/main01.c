@@ -132,7 +132,7 @@ int		main(void)
 
 	ft_putstr("\n\n#8");
 	ft_putstr("\nToi = ");
-	ft_putnbr(ft_strncmp(s7, s8, size7));
+	ft_putnbr(ft_strncmp(s15, s16, size7));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s15, s16, size7));
 
