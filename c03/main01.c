@@ -69,7 +69,7 @@ int		main(void)
 	char	s4[30] = "bonjou";
 	int		size1 = 0;
 
-	ft_putstr("\n#2");
+	ft_putstr("\n\n#2");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s3, s4, size1));
 	ft_putstr("\nOfficiel = ");
@@ -79,7 +79,7 @@ int		main(void)
 	char	s6[30] = "";
 	int		size2 = 10;
 
-	ft_putstr("\n#3");
+	ft_putstr("\n\n#3");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s5, s6, size2));
 	ft_putstr("\nOfficiel = ");
@@ -89,7 +89,7 @@ int		main(void)
 	char	s8[30] = "dwdw";
 	int		size3 = 4;
 
-	ft_putstr("\n#4");
+	ft_putstr("\n\n#4");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s7, s8, size3));
 	ft_putstr("\nOfficiel = ");
@@ -100,7 +100,7 @@ int		main(void)
 	char	s10[30] = "dwdw";
 	int		size4 = 5;
 
-	ft_putstr("\n#5");
+	ft_putstr("\n\n#5");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s9, s10, size4));
 	ft_putstr("\nOfficiel = ");
@@ -110,7 +110,7 @@ int		main(void)
 	char	s12[30] = "rwdw";
 	int		size5 = 1;
 
-	ft_putstr("\n#6");
+	ft_putstr("\n\n#6");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s11, s12, size5));
 	ft_putstr("\nOfficiel = ");
@@ -120,7 +120,7 @@ int		main(void)
 	char	s14[30] = "dwdw";
 	int		size6 = 4;
 
-	ft_putstr("\n#7");
+	ft_putstr("\n\n#7");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s13, s14, size6));
 	ft_putstr("\nOfficiel = ");
@@ -130,7 +130,7 @@ int		main(void)
 	char	s16[30] = "dw  dw";
 	int		size7 = 5;
 
-	ft_putstr("\n#8");
+	ft_putstr("\n\n#8");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s7, s8, size7));
 	ft_putstr("\nOfficiel = ");
@@ -140,7 +140,7 @@ int		main(void)
 	char	s18[100] = "AAAAAAAAAAAAAbbbbbb123456789dwdwd\xF4 123456789";
 	int		size8 = 99;
 
-	ft_putstr("\n#9");
+	ft_putstr("\n\n#9");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s7, s8, size8));
 	ft_putstr("\nOfficiel = ");
@@ -149,25 +149,26 @@ int		main(void)
 	char	s19[] = "Helio";             //Merci Arpascal pour ces 3 test !
 	char	s20[] = "Hello";
 
-	ft_putstr("\n#10");
+	ft_putstr("\n\n#10");
 	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s19, s20, 5));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s19, s20, 5));
 
-
-	ft_putstr("\n\nToi = ");
+	ft_putstr("\n\n#11");
+	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s20, s19, 5));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s20, s19, 5));
 
-
-	ft_putstr("\n\nToi = ");
+	ft_putstr("\n\n#12");
+	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s19, s20, 3));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s19, s20, 3));
 
-	ft_putstr("\n\nToi = ");
+	ft_putstr("\n\n#13");
+	ft_putstr("\nToi = ");
 	ft_putnbr(ft_strncmp(s20, s19, 3));
 	ft_putstr("\nOfficiel = ");
 	ft_putnbr(strncmp(s20, s19, 3));
