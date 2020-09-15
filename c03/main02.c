@@ -37,6 +37,7 @@ int		main(void)
 	char	dest3[17] = "salut";
 	char	src1[11] = "coucou1234";
 
+	ft_putstr("\n\n#1");
 	ft_putstr("Toi = ");
 	ft_putstr(ft_strcat(dest2, src1));
 	ft_putstr("\nOfficiel = ");
@@ -46,6 +47,7 @@ int		main(void)
 	char	dest1[5] = "salut";
 	char	src[10] = "coucou1234";
 
+	ft_putstr("\n\n#2");
 	ft_putstr("Toi = ");
 	ft_putstr(ft_strcat(dest, src));
 	ft_putstr("\nOfficiel = ");
