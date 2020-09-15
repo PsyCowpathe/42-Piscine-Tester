@@ -113,8 +113,8 @@ int		main(void)
 	char *to_find6 = "blacar";
 
 	ft_putstr("\n\nToi = ");
-	ft_putstr(ft_strstr(str6, to_find6);
+	ft_putstr(ft_strstr(str6, to_find6));
 	ft_putstr("\nOfficiel = ");
-	ft_putstr(strstr(str6, to_find6);
+	ft_putstr(strstr(str6, to_find6));
 	return (0);
 }
