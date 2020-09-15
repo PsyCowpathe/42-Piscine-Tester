@@ -13,6 +13,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+int		ft_atoi(char *str);
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
