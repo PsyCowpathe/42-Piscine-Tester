@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 20:37:57 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/15 20:38:39 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/16 12:05:23 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ int		main(void)
 	ft_putstr("-BABABA");
 
 	ft_putstr("\n\n********** 12 **********\n\nToi      = ");
-	ft_putnbr_base(42, "01");
+	ft_putnbr_base(42, "AB");
 	ft_putstr("\nOfficiel = ");
 	ft_putstr("BABABA");
 
