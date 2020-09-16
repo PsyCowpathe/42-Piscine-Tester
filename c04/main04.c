@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 20:37:57 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/16 12:05:23 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/16 20:04:11 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,7 @@
 #include <stdlib.h>
 
 void	ft_putnbr_base(int nbr, char *base);
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
@@ -120,4 +116,25 @@ int		main(void)
 	ft_putnbr_base(0, "0123456789+");
 	ft_putstr("\nOfficiel = ");
 	ft_putstr("");
+
+	ft_putstr("\n\n********** 19 **********\n\nToi      = ");
+	ft_putnbr_base(2147483647, "0123456789");
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("2147483647");
+
+	ft_putstr("\n\n********** 20 **********\n\nToi      = ");
+	ft_putnbr_base(-2147483648, "0123456789");
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("-2147483648");
+
+	ft_putstr("\n\n********** 21 **********\n\nToi      = ");
+	ft_putnbr_base(2147483647, "0123456789ABCDEF");
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("7FFFFFFF");
+
+	ft_putstr("\n\n********** 22 **********\n\nToi      = ");
+	ft_putnbr_base(-2147483648, "0123456789ABCDEF");
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("-80000000");
+	ft_putchar('\n');
 }

@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 00:26:09 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/16 00:27:08 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/16 17:56:16 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -172,5 +172,9 @@ int		main(void)
 	ft_putstr("\nOfficiel = ");
 	ft_putstr("12");
 
+	ft_putstr("\n\n********** 24 **********\n\nToi      = ");
+	ft_putnbr(ft_atoi_base("-2147483648", "0123456789"));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("-2147483648");
 	return (0);
 }
