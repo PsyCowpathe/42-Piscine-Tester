@@ -6,13 +6,13 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 11:03:00 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/15 11:03:17 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/17 22:08:09 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	putstr(char *str);
+void	ft_putstr(char *str);
 
 void	ft_putchar(char c)
 {
