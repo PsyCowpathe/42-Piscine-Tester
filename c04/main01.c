@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 11:03:00 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/17 22:08:09 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/17 22:12:02 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putstr(char *str);
 
-void	ft_putchar(char c)
+void	putchar(char c)
 {
 	write(1, &c, 1);
 }
@@ -25,7 +25,7 @@ void	putstr(char *str)
 
 	i = 0;
 	while (str[i])
-		ft_putchar(str[i++]);
+		putchar(str[i++]);
 }
 
 int		main(void)
