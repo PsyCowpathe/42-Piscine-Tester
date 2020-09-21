@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main07.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: gapoulai <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 13:30:53 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/21 12:02:25 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/21 12:27:56 by gapoulai         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,15 @@ int		ft_find_next_prime(int nb);
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int		i;
+
+	i = 0;
+	while (str[i])
+		ft_putchar(str[i++]);
 }
 
 void	ft_putnbr(int nb)
