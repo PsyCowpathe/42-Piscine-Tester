@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 10:51:26 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/14 13:58:23 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/21 11:57:22 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,31 +45,58 @@ void	ft_putnbr(int nb)
 
 int		main(void)
 {
-	ft_putnbr(ft_is_prime(0)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(1)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(2)); //1
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(3)); //1
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(4)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(5)); //1
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(-42)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(97)); //1
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(90)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(91)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(33)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(75)); //0
-	ft_putchar('\n');
-	ft_putnbr(ft_is_prime(70)); //0
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(0));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 02 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(1));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 03 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(2));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("1");
+	ft_putstr("\n\n********** 04 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(3));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("1");
+	ft_putstr("\n\n********** 05 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(4));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 06 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(5));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("1");
+	ft_putstr("\n\n********** 07 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(-42));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 08 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(97));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("1");
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(90));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(91));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(33));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(75));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
+	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
+	ft_putnbr(ft_is_prime(70));
+	ft_putstr("\nOfficiel = ");
+	ft_putstr("0");
 	ft_putchar('\n');
 	return (0);
 }
