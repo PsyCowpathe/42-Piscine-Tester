@@ -6,13 +6,13 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/22 19:39:11 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/22 19:39:49 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/22 22:15:09 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int *ft_range(int min, int max);
+int		*ft_range(int min, int max);
 
 void	ft_putchar(char c)
 {
@@ -53,8 +53,8 @@ void	ft_putnbr(int nb)
 int		main(void)
 {
 	int		*tab;
-	int		i = 5;
-	int		d = 0;
+	unsigned int		i = 5;
+	unsigned int		d = 0;
 
 	ft_putstr("Pour ces test j'affiche plus que necessaire depuis votre tableau afin de verifier que vous vous arretez au bon moment");
 	ft_putstr("\n\n********** 01 **********\n\nToi      = ");
@@ -106,17 +106,28 @@ int		main(void)
 	ft_putstr("0");
 
 	ft_putstr("\n\n********** 05 **********\n\nToi      = ");
-	tab = ft_range(-5, 5);
+	tab = ft_range(-2147483648, 2147483647);
 	i = 0;
 	d = 0;
-	while (i != 11)
+	while (i != 8)
 	{
 		ft_putnbr(tab[d]);
 		ft_putstr(", ");
 		i++;
 		d++;
 	}
-	ft_putstr("\nOfficiel = ");
-	ft_putstr("-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, n'importe quoi a partir d'ici");
+	ft_putchar('\n');
+	i = 0;
+	d = 4294967288;
+	while (i != 7)
+	{
+		ft_putnbr(tab[d]);
+		ft_putstr(", ");
+		i++;
+		d++;
+	}
+	ft_putstr("\n\nOfficiel = ");
+	ft_putstr("-2147483648, -2147483647, -2147483646, -2147483645, -2147483644, -2147483643, -2147483642, -2147483641, puis la ligne suivante\n");
+	ft_putstr("2147483640, 2147483641, 2147483642, 2147483643, 2147483644, 2147483645, 2147483646, ");
 	ft_putchar('\n');
 }
