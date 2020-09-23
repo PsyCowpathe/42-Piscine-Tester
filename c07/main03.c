@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/21 15:09:11 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/21 15:10:03 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/23 10:42:49 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,8 @@ int		main(void)
 	ft_putstr(ft_strjoin(1, tab3, ""));
 	ft_putstr("\nOfficiel = ");
 	ft_putstr("");
+
+	ft_putstr("\nDans le cas ou SIZE vaut 0 faites attention a renvoyer un pointeur avec de la memoire alloue qui pourras etre free !");
 	ft_putchar('\n');
 	return (0);
 }
