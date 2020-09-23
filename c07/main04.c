@@ -6,13 +6,14 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 10:58:37 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/23 11:00:49 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/23 18:31:54 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 void	ft_putnbr_base(int nb, char *base, char **res, int i);
+char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 
 void	ft_putchar(char c)
 {
