@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 11:41:01 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/23 11:42:08 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/24 22:54:05 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -176,6 +176,7 @@ int		main(void)
 	}
 	ft_putstr("\nOfficiel = ");
 	ft_putstr("");
+	ft_putchar('\n');
 
 	return (0);
 }
