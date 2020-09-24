@@ -5,30 +5,52 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/24 09:45:19 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/24 09:45:21 by agirona          ###   ########lyon.fr   */
+/*   Created: 2020/09/24 09:43:26 by agirona           #+#    #+#             */
+/*   Updated: 2020/09/24 09:43:34 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_boolean.h"
+#include "ft.h"
 
-void ft_putstr(char *str)
+int		main(void)
 {
-	while (*str)
-		write(1, str++, 1);
+	int		a;
+	int		b;
+
+	a = 0;
+	b = 1;
+	ft_putchar('a');
+	ft_swap(&a, &b);
+	ft_putstr("salut");
+	ft_strlen("coucou");
+	ft_strcmp("salut", "salut");
 }
 
-t_bool ft_is_even(int nbr)
+void	ft_putchar(char c)
 {
-	return ((EVEN(nbr)) ? TRUE : FALSE);
+	(void)c;
 }
 
-int main(int argc, char **argv)
+void	ft_swap(int *a, int *b)
 {
-	(void)argv;
-	if (ft_is_even(argc - 1) == TRUE)
-		ft_putstr(EVEN_MSG);
-	else
-		ft_putstr(ODD_MSG);
-	return (SUCCESS);
+	(void)a;
+	(void)b;
+}
+
+void	ft_putstr(char *str)
+{
+	(void)str;
+}
+
+int		ft_strlen(char *str)
+{
+	(void)str;
+	return (1);
+}
+
+int		ft_strcmp(char *s1, char *s2)
+{
+	(void)s1;
+	(void)s2;
+	return (1);
 }
