@@ -6,7 +6,7 @@
 /*   By: agirona <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 22:58:21 by agirona           #+#    #+#             */
-/*   Updated: 2020/09/16 22:59:14 by agirona          ###   ########lyon.fr   */
+/*   Updated: 2020/09/30 19:21:37 by agirona          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,7 +102,7 @@ int		main(void)
 	ft_putstr("\n\n********** 10 **********\n\nToi      = ");
 	ft_putnbr(ft_recursive_factorial(9));
 	ft_putstr("\nOfficiel = ");
-	ft_putstr("362800");
+	ft_putstr("362880");
 
 	ft_putstr("\n\n********** 11 **********\n\nToi      = ");
 	ft_putnbr(ft_recursive_factorial(10));
